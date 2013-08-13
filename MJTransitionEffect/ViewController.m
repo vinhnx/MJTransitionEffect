@@ -20,13 +20,6 @@
 
 @implementation ViewController
 
-- (void)dealloc
-{
-    [_arrayForPlaces release];
-    
-    [super dealloc];
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];

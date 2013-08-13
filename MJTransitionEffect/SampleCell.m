@@ -30,11 +30,4 @@
     // Configure the view for the selected state
 }
 
-- (void)dealloc {
- 
-    [_labelForPlace release];
-    [_labelForCountry release];
-    [_imageview release];
-    [super dealloc];
-}
 @end
