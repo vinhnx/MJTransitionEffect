@@ -40,7 +40,7 @@
     self.backgroundImageView.alpha = 0;
     self.backgroundImageView.frame = CGRectMake(0,
                                                 self.yOrigin + MAIN_LABEL_Y_ORIGIN,
-                                                self.view.frame.size.width,
+                                                 CGRectGetWidth(self.view.frame),
                                                 CGRectGetHeight(self.labelForPlace.frame) + CGRectGetHeight(self.labelForCountry.frame));
     self.labelForPlace.frame = CGRectMake(70,
                                           self.yOrigin + MAIN_LABEL_Y_ORIGIN,
